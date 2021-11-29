@@ -1,0 +1,670 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #00255e;
+}
+
+.imgcabecalho {
+    width: 100%;
+}
+
+.cabecalho {
+    height: 120px;
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.homepage {
+    margin-right: 55px;
+}
+
+.top_cabecalho {
+    width: 860px;
+    height: 64px;
+    display: flex;
+    margin-top: 15px;
+}
+
+.divsearch_bar {
+    display: flex;
+    width: 424px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.search_bar {
+    width: 364px;
+    height: 100%;
+    padding-left: 15px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+}
+
+.caixa_svg {
+    width: 60px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lupa_svg {
+    width: 100%;
+    padding: 0px 20px;
+    align-items: center;
+}
+
+.help_cabecalho {
+    margin-top: 6px;
+    padding-top: 8px;
+    padding-left: 8px;
+    color: white;
+    height: 30px;
+    font-family: "Source Sans Pro",sans-serif;
+    font-size: 15px;
+}
+
+.ponto {
+    display: flex;
+    height: 64px;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.ponto2 {
+    height: 30px;
+}
+
+.shopping_cart {
+    width: 72px;
+    height: 39px;
+}
+
+.caixa_carrinho {
+    width: 47.59px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carrinho {
+    width: 34px;
+    height: 34px;
+}
+
+.caixa_engrenagem {
+    margin-top: 6px;
+    margin-left: 15px;
+    margin-right: 15px  ;
+    border-bottom: 10px;
+    width: 112.47px;
+    height: 30px;
+    display: flex;
+}
+
+.engrenagem {
+    display: flex;
+    width: 32px;
+    height: 30px;
+    align-items: center;
+}
+
+.acessar {
+    width: 84px;
+    height: 34px;
+}
+
+.minhaconta {
+    color: #ff6f00;
+}
+
+.cabecalho_main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 60px;
+    background-color: #ff6f00;
+}
+
+.caixas {
+    padding: 15px;
+    background-color: transparent;
+    font-family: sans-serif;
+    font-size: 15px;
+    border: 1px solid transparent;
+    margin: 0px 3px;
+}
+
+.caixas:hover {
+    color: white;
+    border: 1px solid white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.kits {
+    padding: 15px;
+    background-color: white;
+    color: #ff6f00;
+    font-family: sans-serif;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin: 0px 3px;
+}
+
+.kits:hover {
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.banner {
+    width: 100%;
+    height: 395.94px;
+}
+
+.container_grande {
+    width: 100%;
+    height: 396px;
+}
+
+.container_img {
+    margin: auto;
+    width: 1170px;
+    height: 366px;
+}
+
+.container_central {
+    display: flex;
+    justify-content: center;
+}
+
+.caixa_cincolivros {
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+    height: 324px;
+}
+
+.img_main {
+    width: 221.3px;
+}
+
+.img_main:hover {
+    cursor: pointer;
+}
+
+.central {
+    display: flex;
+    justify-content: center;
+    width: 1170px;
+    margin: auto;
+}
+
+.destaques_meio {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.destaques {
+    width: 1140px;
+    height: 49px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.mes_destaque {
+    position: relative;
+    width: 290px;
+    padding: 10px 30px;
+    border: 1px solid #808080;
+    color: #00255e;
+    font-size: 26px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.traço {
+    position: absolute;
+    top: 5px;
+    right: -24px;
+}
+
+.caixona_main {
+    position: relative;
+    width: 273.59px;
+    height: 614.16px;
+}
+
+.caixona_main:hover {
+    cursor: pointer;
+    box-shadow: inset 0 0 0 1px #f3f3f3;
+}
+
+.caixa_livro {
+    width: 273.59px;
+    height: 331.16px;
+    padding: 15px;
+}
+
+.caixa2_livro {
+    padding: 15px;
+}
+
+.title_info {
+    height: 36px;
+    margin-bottom: 5px;
+    font-family: "Source Sans Pro",sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #00255e;
+    overflow: hidden;
+}
+
+.title_info:hover {
+    color: #ff6f00;
+}
+
+.avaliacoes {
+    display: flex;
+    align-items: center;
+    height: 22px;
+    margin: 10px 0px;
+}
+
+.aval_num {
+    font-family: "Source Sans Pro",sans-serif;
+    font-size: 12px;
+    color: #daa81d;
+}
+
+.estrela {
+    width: 19px;
+    height: 19px;
+}
+
+.tamanho_img {
+    width: 100%;
+    height: 100%;
+}
+
+.preco {
+    width: 100%;
+    height: 67px;
+    padding: 10px 0px;
+}
+
+.preco_pequeno {
+    margin: 9px 5px 0 0;
+    font-family: "Source Sans Pro",sans-serif;
+    font-size: 14px;
+    color: gray;
+}
+
+.preco_livro {
+    font-family: "Source Sans Pro",sans-serif;
+    color: #ff6f00;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.prazo {
+    font-family: "Source Sans Pro",sans-serif;
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 5px;
+}
+
+.teste144 {
+    margin-bottom: 10px;
+}
+
+.qtd_paginas {
+    font-family: "Source Sans Pro",sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #00255e;
+}
+
+.caixona_main:hover .button_comprar{
+    visibility: visible;
+}
+
+.button_comprar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 44px;
+    width: 100%;
+    border-radius: 5px;
+    text-decoration: none;
+    border: none;
+    visibility: hidden;
+    background-color: #ff6f00;
+    font-family: "Source Sans Pro",sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.img_caixa_livro {
+    height: 100%;
+    width: 100%;
+}
+
+.imbativel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: white;
+    font-family: "Source Sans Pro",sans-serif;
+    position: absolute;
+    background-color: #df0038;
+    width: 154.15px;
+    height: 34px;
+    top: 10px;
+    left: 15px;
+}
+
+.soHoje {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: black;
+    font-family: "Source Sans Pro",sans-serif;
+    position: absolute;
+    background-color: #ffba3c;
+    width: 89.44px;
+    height: 34px;
+    top: 10px;
+    left: 169.15px;
+}
+
+.lancamento {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: white;
+    font-family: "Source Sans Pro",sans-serif;
+    position: absolute;
+    background-color: #00255e;
+    width: 76.2px;
+    height: 19px;
+    top: 49px;
+    left: 15px;
+}
+
+.desconto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: white;
+    font-family: "Source Sans Pro",sans-serif;
+    position: absolute;
+    background-color: #cc5900;
+    width: 97.97px;
+    height: 19px;
+    top: 49px;
+    left: 94.2px;
+}
+
+.caixa2_livro {
+    width: 273.59px;
+    height: 283px;
+}
+
+.caixa_img {
+    height: 100%;
+    width: 100%;
+}
+
+.resto_main {
+    display: flex;
+    justify-content: center;
+    margin: 0px 126.500px;
+}
+
+.cinco_imgs {
+    width: 100%;
+    height: 323.969px;
+}
+
+footer {
+
+}
+
+.rodapecima {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00255e;
+    width: 100%;
+    height: 81px;
+}
+
+.newsletter {
+    font-size: 36px; 
+    color: #ff6f00; 
+    font-family: sans-serif; 
+    margin-right: 20px;
+}
+
+.cadastrase {
+    color: #fff; 
+    font-size: 15px; 
+    width: 216.89px; 
+    height: 30px;
+    margin-right: 20px;
+}
+
+.input_rodape {
+    display: flex;
+    align-items: center;
+    width: 420px;
+    height: 40px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.input {
+    width: 347px;
+    height: 100%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-family: sans-serif;
+    font-size: 11px;
+}
+
+.submit {
+    color: #ff6f00;
+    font-family: sans-serif;
+    font-size: 12px;
+    padding: 0px 15px;
+}
+
+.submit:hover {
+    cursor: pointer;
+    color: #00255e;
+}
+
+.icons {
+    display: flex;
+    width: 216.45px;
+    height: 32px;
+    margin-left: 50px;
+    justify-content: space-between;
+}
+
+.caixaicon:hover {
+    cursor: pointer;
+}
+
+.icon:hover {
+    fill: #ff6f00;
+}
+
+.rodapemeio {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #ebf1f7;
+    padding: 25px 0px;
+}
+
+.container_rodape {
+    width: 1140px;
+}
+
+.cimameio {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+}
+
+.caixarodape {
+    height: 100%;
+    width: 195px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.title_rodape {
+    font-size: 20px;
+    color: #808080;
+    margin-bottom: 15px;
+}
+
+.margem_p {
+    margin-bottom: 8px;
+}
+
+.texto_rodape {
+    font-size: 13px;
+    color: #808080;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.texto_rodape:hover {
+    color: #ff6f00;
+    text-decoration: underline;
+}
+
+.rodapebaixo {
+    display: flex;
+    width: 100%;
+    height: 122px;
+    margin-top: 40px;
+    padding: 30px 0px;
+    border-top: 1px solid #808080;
+    border-bottom: 1px solid #808080;
+}
+
+.caixa_rodapebaixo {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 25%;
+    border-right: 1px solid #808080;
+}
+
+.caixa_svg_rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 43.2px;
+    height: 36px;
+}
+
+.tamanho_svg {
+    width: 36px;
+    height: 100%;
+    margin-right: 5px;
+}
+
+.tamanho_svg2 {
+    width: 36px;
+    height: 100%;
+    margin-right: 10px;
+}
+
+
+
+.caixa_textinho {
+    width: 139.97px;
+}
+
+.textinho_rodape {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    color: #808080;
+}
+
+.textinho_rodape2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    color: #ff6f00;
+}
+
+.informacoes_rodape {
+    display: flex;
+    height: 108px;
+    width: 1040.90px;
+    padding: 30px 0px;
+    margin: 0px 64.516px;
+}
+
+.caixinha_rodape {
+    display: flex;
+    padding-right: 25px;
+    margin-right: 25px;
+    border-right: 1px solid gray;
+}
+
+.icon_rodape {
+    height: 32px;
+    width: 32px;
+    margin-right: 5px;
+}
+
+.img_rodape {
+    width: 100%;
+    height: 100%;
+}
+
+.texto_rodape2 {
+    font-size: 13px;
+    color: #808080;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.title_rodape {
+    color: #808080;
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.info_rodape {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
